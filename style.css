@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    gap: 10px;
+}
+
+.draw-container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.square {
+    flex: 1;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.filled {
+    background-color: black;
+}
+
+button {
+    padding: 10px;
+}
